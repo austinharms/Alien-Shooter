@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Missile
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Rocket\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Missile()
+comment1.text=\r\n\ Missile\ Constructor\ sets\ the\ image\ for\ the\ missle\r\n\ \r\n\ @param\ nothing\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ checks\ if\ it\ has\ hit\ an\ aliean\ if\ it\ has\ it\ explodes\ the\ aliean\ and\ then\ explodes\ its\ self\r\n\ \r\n\ @param\ nothing\ there\ are\ no\ parameters\r\n\ \r\n
+comment3.params=moveX\ moveY
+comment3.target=void\ setAbsoluteLocation(int,\ int)
+comment3.text=\r\n\ Method\ setAbsoluteLocation\ set\ the\ location\ of\ this\ object\ based\ on\ the\ move\ x\ and\ y\ values\r\n\r\n\ @param\ moveX\ A\ parameter\ used\ to\ set\ the\ x\ location\r\n\ @param\ moveY\ A\ parameter\ used\ to\ set\ the\ y\ location\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=4

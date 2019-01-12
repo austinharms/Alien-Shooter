@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Overlay
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ overlay\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Overlay()
+comment1.text=\r\n\ Overlay\ Constructor\ makes\ a\ new\ image\ and\ draws\ out\ the\ images\ on\ the\ object\ and\ sets\ the\ image\ of\ the\ object\ to\ the\ new\ image\r\n\r\n@param\ nothing\ there\ are\ no\ parameters\r\n@return\ nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ updates\ the\ shot\ reload\ counter\ and\ sets\ the\ proper\ gun\ icon\ for\ the\ user\r\n\r\n
+comment3.params=
+comment3.target=void\ shot()
+comment3.text=\r\n\ Method\ shot\ draws\ the\ laserbeam\ on\ the\ screen\r\n\r\n@param\ nothing\ there\ are\ no\ parameters\r\n@return\ nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ explodeBomb()
+comment4.text=\r\n\ Method\ explodeBomb\ draws\ the\ expolsion\ gif\ onto\ the\ screen\ and\ updates\ the\ user\ interface\r\n\r\n@param\ nothing\ there\ are\ no\ parameters\r\n@return\ nothing\ is\ returned\r\n
+comment5.params=background\ display\ color\ size\ x\ y
+comment5.target=void\ displayText(greenfoot.GreenfootImage,\ java.lang.String,\ greenfoot.Color,\ int,\ int,\ int)
+comment5.text=\r\n\ displayText\ overlays\ the\ text\ from\ the\ string\ over\ the\ image\ an\ the\ set\ size\ location\ and\ color\r\n\ \r\n\ @param\ an\ image\ used\ to\ overlay\ the\ text\ a\ string\ with\ the\ text\ that\ should\ be\ displayed\ a\ color\ used\ to\ set\ the\ text\ an\ int\ used\ to\ set\ the\ size\ of\ the\ text\ and\ tow\ ints\ used\ to\ set\ the\ position\r\n\ @return\ nothing\ is\ returned\r\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\r\n\ updateImage\ makes\ a\ new\ image\ and\ draws\ out\ the\ images\ on\ the\ object\ and\ sets\ the\ image\ of\ the\ object\ to\ the\ new\ image\ with\ current\ information\ as\ a\ graphic\ display\r\n\ if\ bomb\ explode\ count\ is\ less\ then\ o\ is\ runs\ the\ explode\ bomb\ method\r\n\r\n@param\ nothing\ there\ are\ no\ parameters\r\n@return\ nothing\ is\ returned\r\n
+numComments=7

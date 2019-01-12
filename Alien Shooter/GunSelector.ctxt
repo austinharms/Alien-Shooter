@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GunSelector
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ gunSelector\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=GunSelector()
+comment1.text=\r\n\ GunSelector\ sets\ and\ scales\ the\ image\ to\ the\ proper\ image\r\n\ \r\n@param\ nothing\ there\ are\ no\ parmeters\r\n@return\ nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ changes\ the\ image\ based\ on\ if\ you\ clicked\ on\ it\r\n\ \r\n\ @param\ nothing\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=3

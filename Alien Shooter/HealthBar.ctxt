@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HealthBar
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HealthBar\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=HealthBar()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ of\ the\ HealthBar\ class\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ an\ object\ of\ the\ HealthBar\ type\r\n
+comment2.params=c\ m
+comment2.target=HealthBar(int,\ int)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ the\ HealthBar\ class\ that\ allows\ for\ customization\r\n\ \r\n\ @param\ c\ is\ the\ current\ value\ of\ health\r\n\ @param\ m\ is\ the\ maximum\ health\ amount\r\n\ @param\ s\ is\ the\ speed\ the\ health\ bar's\ health\ with\ change\ at\r\n\ @return\ an\ object\ of\ the\ HealthBar\ type\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ HealthBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ updateBar()
+comment4.text=\r\n\ updateBar\ updates\ the\ image\ of\ the\ health\ bar\ when\ the\ current\ health\r\n\ changes\ values\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=change
+comment5.target=void\ add(int)
+comment5.text=\r\n\ add\ will\ change\ the\ current\ value\ of\ the\ health\ in\ the\ health\ bar\r\n\ \r\n\ @param\ change\ is\ the\ amount\ that\ the\ current\ health\ will\ be\ changed\ by\r\n\ @return\ Nothing\ is\ returned\r\n
+comment6.params=c
+comment6.target=void\ setCurrent(int)
+comment6.text=\r\n\ setCurrent\ will\ change\ the\ current\ value\ to\ whatever\ the\ user\ chooses\r\n\ \r\n\ @param\ c\ is\ the\ new,\ user-chosen\ current\ value\r\n\ @return\ Nothing\ is\ returned\r\n
+comment7.params=
+comment7.target=int\ getCurrent()
+comment7.text=\r\n\ getCurrent\ returns\ the\ current\ health\ value\ for\ use\ in\ other\ sections\ of\ code\ or\ for\ the\ user's\ information\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ an\ integer\ representing\ the\ current\ health\ value\r\n
+numComments=8

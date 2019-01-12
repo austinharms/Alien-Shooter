@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Alien
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Alien\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Alien()
+comment1.text=\r\n\ Alien\ sets\ the\ image\ to\ a\ random\ image\r\n\ \r\n\ @parameter\ nothing\ there\ are\ no\ parmeters\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ first\ scales\ up\ the\ image\ and\ once\ it\ is\ at\ full\ scale\ it\ starts\ shooting\ and\ if\ it\ has\ been\ shot\ it\ runs\ an\ explode\ animation\r\n\ \r\n\ @parameter\ noth\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment3.params=moveX\ moveY
+comment3.target=void\ setAbsoluteLocation(int,\ int)
+comment3.text=\r\n\ Method\ setAbsoluteLocation\ set\ the\ location\ of\ this\ object\ based\ on\ the\ move\ x\ and\ y\ values\r\n\r\n\ @param\ moveX\ A\ parameter\ used\ to\ set\ the\ x\ location\r\n\ @param\ moveY\ A\ parameter\ used\ to\ set\ the\ y\ location\r\n\ @return\ nothing\ is\ returned\r\n
+comment4.params=range
+comment4.target=java.util.List\ getRange(int)
+comment4.text=\r\n\ Method\ getRange\ gets\ all\ of\ the\ Aliens\ in\ the\ spesified\ range\r\n\r\n\ @param\ range\ A\ parameter\ used\ to\ set\ the\ range\ that\ it\ gets\ the\ aliean\r\n\ @return\ returns\ a\ list\ of\ all\ of\ the\ nearby\ aliens\r\n
+comment5.params=range
+comment5.target=java.util.List\ getMissileRange(int)
+comment5.text=\r\n\ Method\ getRange\ gets\ all\ of\ the\ missles\ in\ the\ spesified\ range\r\n\r\n\ @param\ range\ A\ parameter\ used\ to\ set\ the\ range\ that\ it\ gets\ the\ missle\r\n\ @return\ returns\ a\ list\ of\ all\ of\ the\ nearby\ missles\r\n
+numComments=6

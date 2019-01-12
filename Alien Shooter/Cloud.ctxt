@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cloud
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cloud\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=speedSet
+comment1.target=Cloud(int)
+comment1.text=\r\n\ Cloud\ Constructor\ sets\ the\ move\ speed\ of\ the\ cloud\ to\ a\ random\ number\ and\ sets\ the\ image\r\n\r\n\ @param\ speedSet\ A\ parameter\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ checks\ if\ it\ is\ at\ the\ side\ of\ the\ world\ is\ removes\ its\ self\ and\ adds\ a\ new\ one\ to\ the\ world\r\n\ \r\n\ @param\ nothing\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment3.params=moveX\ moveY
+comment3.target=void\ setAbsoluteLocation(int,\ int)
+comment3.text=\r\n\ Method\ setAbsoluteLocation\ set\ the\ location\ of\ this\ object\ based\ on\ the\ move\ x\ and\ y\ values\r\n\r\n\ @param\ moveX\ A\ parameter\ used\ to\ set\ the\ x\ location\r\n\ @param\ moveY\ A\ parameter\ used\ to\ set\ the\ y\ location\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=4

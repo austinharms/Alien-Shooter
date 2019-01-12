@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MinMap
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MinMap\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MinMap()
+comment1.text=\r\n\ MinMap\ Constructor\ sets\ the\ image\ fot\ the\ object\r\n\r\n@param\ nothing\ there\ are\ no\ parameters\r\n@return\ nothing\ is\ retuurned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ puts\ a\ square\ on\ the\ image\ for\ each\ alien\ in\ the\ world\ and\ rotates\ the\ arrow\ based\ on\ the\ turret\ rotation\r\n\ \r\n\ @param\ nothing\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment3.params=x\ in_min\ in_max\ out_min\ out_max
+comment3.target=int\ map(int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ map\ maps\ the\ input\ value\ to\ a\ new\ number\ between\ the\ output\ range\r\n\ \r\n\ @param\ there\ are\ five\ ints\ the\ first\ is\ the\ input\ number\ the\ second\ is\ the\ minimum\ the\ input\ can\ be\ the\ third\ is\ the\ max\ the\ input\ can\ be\ the\ forth\ is\ the\ minimum\ the\ output\ should\ be\ and\ the\ fith\ is\ the\ max\ the\ output\ can\ be\r\n\ @return\ an\ int\ that\ is\ the\ product\ of\ the\ equation\r\n
+numComments=4

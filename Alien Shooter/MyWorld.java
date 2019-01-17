@@ -3,10 +3,10 @@ import java.util.List;
 import java.io.*;
 
 /**
- * a turret shooting game 
+ * a turret shooting game whare you shoot down the aliens
  * 
- * @author (austin) 
- * @version (12/2/2018)
+ * @author Austin 
+ * @version (1/17/2019)
  */
 public class MyWorld extends World
 {
@@ -29,6 +29,7 @@ public class MyWorld extends World
      * MyWorld Constructor sets the height of the world to WORLDWIDTH by WORLDHEIGHT, sets the speed to 50, and adds the objects to the world
      * it then starts the game
      *
+     * @param nothing there are no parameters
      */
     public MyWorld()
     {    
@@ -62,8 +63,9 @@ public class MyWorld extends World
      * and sets the score to the currentScore parameter and the current health
      * of the health bar to health parameter it then starts the game
      *
-     * @param health A parameter
-     * @param currentScore A parameter
+     * @param health A parameter used to set the current health of the player
+     * @param currentScore A parameter used to set the current players score
+     * @pram stage a parameter use to set what stage the player is curently on
      */
     public MyWorld(int health, long currentScore, int stage)
     {    
@@ -159,7 +161,8 @@ public class MyWorld extends World
     /**
      * Method shiftWorld checks that the input values are within range then it runs the shiftworldbackground and shiftworldactors with the movex and movey values
      *
-     * @param moveX A parameter used to shift the world a certen direction moveY A parameter used to shift the world a certen direction
+     * @param moveX A parameter used to shift the world a certen direction in the x axis
+     * @param moveY A parameter used to shift the world a certen direction in the y axis
      * @return nothing is returnd
      */
     public void shiftWorld(int moveX, int moveY) {
@@ -192,7 +195,8 @@ public class MyWorld extends World
     /**
      * Method shiftWorldBackground pans around the background image based on the move x and y values
      *
-     * @param moveX A parameter used to shift the image a certen direction moveY A parameter used to shift the image a certen direction
+     * @param moveX A parameter used to shift the world background a certen direction in the x axis
+     * @param moveY A parameter used to shift the world background a certen direction in the y axis
      * @return nothing is returnd
      */
     private void shiftWorldBackground(int moveX, int moveY) {
@@ -204,7 +208,8 @@ public class MyWorld extends World
     /**
      * Method shiftWorldActors moves the actors around the world based on the move x and y values
      *
-     * @param moveX A parameter used to shift the actors a certen direction moveY A parameter used to shift the actors a certen direction
+     * @param moveX A parameter used to shift the actors a certen direction in the x axis
+     * @param moveY A parameter used to shift the actors a certen direction in the y axis
      * @return nothing is returnd
      */
     private void shiftWorldActors(int moveX, int moveY) {
@@ -365,7 +370,12 @@ public class MyWorld extends World
     /**
      * displayText overlays the text from the string over the image an the set size location and color
      * 
-     * @param an image used to overlay the text a string with the text that should be displayed a color used to set the text an int used to set the size of the text and tow ints used to set the position
+     * @param background an image used to overlay the text 
+     * @param display a string with the text that should be displayed 
+     * @param color a color used to set the text color
+     * @param size an int used to set the size of the text 
+     * @param x an int used to set the x position
+     * @param y an int used to set the x position
      * @return nothing is returned
      */
     private void displayText( GreenfootImage background, String display, Color color, int size, int x, int y)
@@ -380,7 +390,7 @@ public class MyWorld extends World
     /**
      * getData gets the high scores from the text file 
      * 
-     * @pram no parameter
+     * @param nothing there are no parameters
      * @return nothing is returned
      */
     private void getData()
@@ -451,7 +461,7 @@ public class MyWorld extends World
     }
 
     /**
-     * rocket adds a rocket to the world at a random location and at the bottom of the background image if the rocket was not destroyed by the player
+     * rocket adds a rocket to the world at a random location and at the bottom of the background image if the rocket was not destroyed by theplayer
      * 
      * @param Nothing there are no parameters
      * @return nothing is returned
@@ -463,12 +473,16 @@ public class MyWorld extends World
             addObject(new Missile(),  map(Greenfoot.getRandomNumber(1000), 0, 999, leftEdge + 300, (xImageOffset + BACKGROUNDWIDTH)), 800);
         }
     }
-
+    
     /**
-     * map maps the input value to a new number between the output range
-     * 
-     * @param there are five ints the first is the input number the second is the minimum the input can be the third is the max the input can be the forth is the minimum the output should be and the fith is the max the output can be
-     * @return an int that is the product of the equation
+     * Method map maps the input to between the minimun output value and the maximum output value
+     *
+     * @param x A parameter that is the input value for the equasion
+     * @param in_min A parameter the minimum value the input can be
+     * @param in_max A parameter the maximum value the input can be
+     * @param out_min A parameter the minimum value the output can be
+     * @param out_max A parameter the maximum value the output can be
+     * @return The return value is the result of the equasion
      */
     private int map(int x, int in_min, int in_max, int out_min, int out_max)
     {

@@ -49,7 +49,7 @@ public class Alien extends Actor
     /**
      * Act first scales up the image and once it is at full scale it starts shooting and if it has been shot it runs an explode animation
      * 
-     * @parameter noth there are no parameters
+     * @parameter nothing there are no parameters
      * @return nothing is returned
      */
     public void act() 

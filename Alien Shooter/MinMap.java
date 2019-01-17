@@ -134,10 +134,14 @@ public class MinMap extends Actor
     }    
 
     /**
-     * map maps the input value to a new number between the output range
-     * 
-     * @param there are five ints the first is the input number the second is the minimum the input can be the third is the max the input can be the forth is the minimum the output should be and the fith is the max the output can be
-     * @return an int that is the product of the equation
+     * Method map maps the input to between the minimun output value and the maximum output value
+     *
+     * @param x A parameter that is the input value for the equasion
+     * @param in_min A parameter the minimum value the input can be
+     * @param in_max A parameter the maximum value the input can be
+     * @param out_min A parameter the minimum value the output can be
+     * @param out_max A parameter the maximum value the output can be
+     * @return The return value is the result of the equasion
      */
     private int map(int x, int in_min, int in_max, int out_min, int out_max)
     {

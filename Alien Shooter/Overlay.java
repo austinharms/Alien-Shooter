@@ -158,7 +158,12 @@ public class Overlay extends Actor
     /**
      * displayText overlays the text from the string over the image an the set size location and color
      * 
-     * @param an image used to overlay the text a string with the text that should be displayed a color used to set the text an int used to set the size of the text and tow ints used to set the position
+     * @param background an image used to overlay the text 
+     * @param display a string with the text that should be displayed 
+     * @param color a color used to set the text color
+     * @param size an int used to set the size of the text 
+     * @param x an int used to set the x position
+     * @param y an int used to set the x position
      * @return nothing is returned
      */
     private void displayText( GreenfootImage background, String display, Color color, int size, int x, int y)
